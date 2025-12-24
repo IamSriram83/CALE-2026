@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .calendar-container {
@@ -19,7 +19,7 @@ h1 {
 #calendar-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 100px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -70,4 +70,5 @@ td:hover {
     color: white;
     font-weight: bold;
 }
+
 
