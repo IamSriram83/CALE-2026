@@ -19,7 +19,7 @@ h1 {
 #calendar-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
 }
 
@@ -70,3 +70,4 @@ td:hover {
     color: white;
     font-weight: bold;
 }
+
